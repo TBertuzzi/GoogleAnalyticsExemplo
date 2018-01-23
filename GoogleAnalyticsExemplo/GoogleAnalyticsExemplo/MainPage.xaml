@@ -4,10 +4,9 @@
              xmlns:local="clr-namespace:GoogleAnalyticsExemplo"
              x:Class="GoogleAnalyticsExemplo.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="20">
+            <Label Text="Google Analytics" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button Text="Enviar Click" Clicked="Button_Clicked" HorizontalOptions="FillAndExpand" HeightRequest="60" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

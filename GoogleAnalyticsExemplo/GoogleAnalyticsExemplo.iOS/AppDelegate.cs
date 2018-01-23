@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using Google.Analytics;
 using Foundation;
 using UIKit;
 
@@ -23,6 +23,9 @@ namespace GoogleAnalyticsExemplo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
+            GAService.GetGASInstance().Initialize_NativeGAS();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

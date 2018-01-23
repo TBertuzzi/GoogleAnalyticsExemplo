@@ -20,6 +20,7 @@ namespace GoogleAnalyticsExemplo.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            GAService.GetGASInstance().Initialize_NativeGas(this);
             LoadApplication(new App());
         }
     }
