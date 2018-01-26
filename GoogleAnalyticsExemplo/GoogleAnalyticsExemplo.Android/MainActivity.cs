@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using GoogleAnalyticsExemplo.Droid.Analytics;
 
 namespace GoogleAnalyticsExemplo.Droid
 {
@@ -20,7 +21,7 @@ namespace GoogleAnalyticsExemplo.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            GAService.GetGASInstance().Initialize_NativeGas(this);
+            GAService.GetGASInstance().Initialize_NativeGAS(this);
             LoadApplication(new App());
         }
     }

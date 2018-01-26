@@ -5,15 +5,17 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Gms.Analytics;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Xamarin.Forms;
 
-[assembly: Dependency(typeof(GoogleAnalyticsExemplo.Droid.GAService))]
+[assembly: Dependency(typeof(GoogleAnalyticsExemplo.Droid.Analytics.GAService))]
 namespace GoogleAnalyticsExemplo.Droid.Analytics
 {
-    class GAService : IAnalyticsService
+    public class GAService : IAnalyticsService
     {
         //para obter seu id https://analytics.google.com/
         public string TrackingId = "ADICIONE AQUI SEU ID DO ANALYTICS";
