@@ -18,7 +18,7 @@ namespace GoogleAnalyticsExemplo.Droid.Analytics
     public class GAService : IAnalyticsService
     {
         //para obter seu id https://analytics.google.com/
-        public string TrackingId = "ADICIONE AQUI SEU ID DO ANALYTICS";
+        public string TrackingId = "MEU ID";
 
         private static GoogleAnalytics GAInstance;
         private static Tracker GATracker;

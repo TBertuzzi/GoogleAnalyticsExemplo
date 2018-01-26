@@ -4,6 +4,7 @@ using System.Linq;
 using Google.Analytics;
 using Foundation;
 using UIKit;
+using GoogleAnalyticsExemplo.iOS.Analytics;
 
 namespace GoogleAnalyticsExemplo.iOS
 {

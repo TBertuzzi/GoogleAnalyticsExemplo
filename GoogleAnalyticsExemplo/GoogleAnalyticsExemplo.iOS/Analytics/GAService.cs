@@ -11,7 +11,7 @@ namespace GoogleAnalyticsExemplo.iOS.Analytics
     public class GAService : IAnalyticsService
     {
         //para obter seu id https://analytics.google.com/
-        public string TrackingId = "ADICIONE AQUI SEU ID DO ANALYTICS";
+        public string TrackingId = "MEU ID";
         public ITracker Tracker;
         const string AllowTrackingKey = "AllowTracking";
 
